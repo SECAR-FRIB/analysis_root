@@ -10,10 +10,11 @@ This project includes scripts to:
 
 - The first step is to convert from evt to ROOT and this is happenning using the ```bash create_rawROOT.sh ``` script. 
 The next step is to create sorted ROOT trees for each run that is done using the ```bash create_sortROOT.sh ``` script. 
-#### Use the 
+#### Use the sort_run.sh script to run either or both for one or multiple runs.
 ```bash
-source sort_run.sh ```
-script to run either or both for one or multiple runs.
+source sort_run.sh
+```
+
 
 
 ## Requirements
