@@ -37,4 +37,10 @@ create_sortROOT.sh
 ```
 scripts have the correct experiment number and paths to the data
 
+## How to run
+
+After setting the environment run ```make``` in the folder. This will create the runConverter binnary needed for the evt to root conversion. 
+Next select the runs you want to convert and edit the sort_runs.sh script. Select if you want to create only the raw root files or also the sorted by (un)commenting the corresponding scripts.
+If creating also the sorted root files edit the createEvents.cpp file. There you can choose the detectors that need to be included in the file and also set calibration parameters.
+#### Important! If you edit the createEvents.cpp file you need to recompile i.e. ```make clean && make``` 
 
